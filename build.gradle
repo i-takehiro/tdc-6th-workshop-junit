@@ -1,0 +1,42 @@
+apply {
+    plugin 'java'
+    plugin 'eclipse'
+    plugin 'jacoco'
+}
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+ext {
+    encoding = 'UTF-8'
+}
+
+tasks.withType(AbstractCompile) { options.encoding = encoding }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.10'
+}
+
+test {
+    exclude '**/*Test$*'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.11'
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled false
+        csv.enabled false
+        html.destination "${buildDir}/jacocoHtml"
+    }
+}
+
+task init_dirs << {
+    sourceSets*.java.srcDirs.flatten().each { it.mkdirs() }
+}
