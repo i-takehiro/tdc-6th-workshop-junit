@@ -1,17 +1,17 @@
 東北デベロッパーズカンファレンス2014「6周年記念ワークショップ祭り！」JUnitハンズオン
 ========================================================================
 
-#事前準備
-JUnitハンズオンではノートPCを使用します。
-以下のソフトウェアをインストールしておいて下さい。  
-(Wi-Fiをお持ちの方は出来る限りご持参ください)
+##事前準備
+JUnitハンズオンでは **ノートPCを使用します** のでご持参ください。  
+ノートPCには以下のソフトウェアをインストールしておいて下さい。  
+(**Wi-Fiをお持ちの方は出来る限りご持参ください**)
 
-## Java
+### Java
 
 **Java 7** を使用します。(**Java 6** でも構いません)
 <http://www.oracle.com/technetwork/java/javase/downloads/index.html>
 
-## Eclipse
+### Eclipse
 
 IDEとして **Eclipse** を使用します。  
 <http://www.eclipse.org/downloads/>  
@@ -19,23 +19,29 @@ IDEとして **Eclipse** を使用します。
 
 必須ではありませんが、以下のEclipseプラグインを入れておくことをお勧めします。
 
-- Quick JUnit Plugin for Eclipse  
+- **Quick JUnit Plugin for Eclipse**  
 <http://quick-junit.sourceforge.jp/>
-- EclEmma  
+- **EclEmma**  
 <http://www.eclemma.org/>
 
 Eclipse以外のIDEでも構いませんが、十分にサポート出来ない可能性がありますので御了承ください。
 
-## Gradle (任意)
+### JUnit
+
+**JUnit 4.11** を使用します。  
+<http://junit.org/>  
+-> ワークショップ内でセットアップしますので事前準備は不要です。
+
+### Gradle (任意)
 
 ビルドツールとして **Gradle** を使用します。
 
-### Windowsの場合
+#### Windowsの場合
 
 以下を参考にして下さい。  
 <http://gradle.monochromeroad.com/docs/userguide/installation.html>
 
-### Mac/Linuxの場合
+#### Mac/Linuxの場合
 
 **gvm** を使用してインストールして下さい。
 
@@ -43,6 +49,11 @@ Eclipse以外のIDEでも構いませんが、十分にサポート出来ない�
 
 **gvm** 自体のインストールは以下を参考にして下さい。  
 <http://gvmtool.net/>
+
+## 参考書籍
+
+**JUnit実践入門 ~体系的に学ぶユニットテストの技法 (WEB+DB PRESS plus)**  
+<http://www.amazon.co.jp/dp/477415377X>
 
 ***
 
