@@ -69,6 +69,35 @@ Gradleをインストールしていない場合(Mac/Linux)
     $ gradlew eclipse
 
 
+## ワークショップの流れ
+
+- 質問
+- 環境セットアップ
+    - Gradleとは
+- JUnit基礎
+    - 初めてのユニットテスト
+    - 学習テストとは
+        - 演習
+    - アノテーション
+    - Mather
+        - 演習
+    - テストの構造化
+    - パラメータ化テスト
+        - 演習
+- TDD(テスト駆動開発)
+    - テスト駆動開発とは
+    - デモ
+    - 演習
+
+## 参考URL
+
+Java7 APIリファレンス  
+<http://docs.oracle.com/javase/jp/7/api/>
+
+Gradle 日本語ドキュメント  
+<http://gradle.monochromeroad.com/docs/>
+
+
 ## 参考書籍
 
 **JUnit実践入門 ~体系的に学ぶユニットテストの技法 (WEB+DB PRESS plus)**  
