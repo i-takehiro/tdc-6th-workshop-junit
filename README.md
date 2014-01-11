@@ -79,7 +79,7 @@ Gradleをインストールしていない場合(Mac/Linux)
     - 学習テストとは
         - 演習
     - アノテーション
-    - Matcher
+    - Mather
         - 演習
     - テストの構造化
     - パラメータ化テスト
@@ -91,12 +91,17 @@ Gradleをインストールしていない場合(Mac/Linux)
 
 ## 参考URL
 
-Java7 APIリファレンス  
+Java7 API 日本語リファレンス  
 <http://docs.oracle.com/javase/jp/7/api/>
+
+JUnit  
+<http://junit.org/>
 
 Gradle 日本語ドキュメント  
 <http://gradle.monochromeroad.com/docs/>
 
+Maven Central Repository  
+<http://search.maven.org/>
 
 ## 参考書籍
 
