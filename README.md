@@ -50,6 +50,25 @@ Eclipse以外のIDEでも構いませんが、十分にサポート出来ない�
 **gvm** 自体のインストールは以下を参考にして下さい。  
 <http://gvmtool.net/>
 
+## 環境構築
+
+リポジトリの内容を空のEclipseプロジェクトに取り込んで下さい  
+コマンドプロンプト／ターミナル上でEclipseプロジェクトのルートに移動して以下のコマンドを実行して環境構築を行います  
+
+Gradleをインストールしてる場合
+ 
+    $ gradle eclipse
+    
+
+Gradleをインストールしていない場合(Windows)
+
+    $ gradlew.bat eclipse
+
+Gradleをインストールしていない場合(Mac/Linux)
+
+    $ gradlew eclipse
+
+
 ## 参考書籍
 
 **JUnit実践入門 ~体系的に学ぶユニットテストの技法 (WEB+DB PRESS plus)**  
