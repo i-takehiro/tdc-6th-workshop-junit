@@ -3,6 +3,9 @@ package learning;
 import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.junit.Test;
 
 public class MathTest {
@@ -50,5 +53,10 @@ public class MathTest {
         int actual = Math.abs(Integer.MIN_VALUE);
         // Verify
         assertThat(actual, is(expected));
+    }
+    
+    @Test
+    public void testName() throws Exception {
+        List<String> arrayList = new ArrayList<String>();
     }
 }
