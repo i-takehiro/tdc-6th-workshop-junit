@@ -54,7 +54,8 @@ public class MathTest {
         // Verify
         assertThat(actual, is(expected));
     }
-    
+
+    @SuppressWarnings("unused")
     @Test
     public void testName() throws Exception {
         List<String> arrayList = new ArrayList<String>();
