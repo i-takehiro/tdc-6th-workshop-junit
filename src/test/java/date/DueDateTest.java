@@ -235,7 +235,6 @@ public class DueDateTest {
                 new DueDate(p.year, p.month, p.day);
                 // どのパラメータで例外が発生しなかったかが分かるように
                 // 明示的にメッセージを指定してテストを失敗させる
-//                fail(String.format("When %d年%d月%d月", p.year, p.month, p.day));
                 fail("When " + p.toString());
             } catch (IllegalArgumentException e) {
                 assertThat(true, is(true));
