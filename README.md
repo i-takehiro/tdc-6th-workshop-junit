@@ -111,3 +111,4 @@ Maven Central Repository
 ***
 
 [![Build Status](https://travis-ci.org/i-takehiro/tdc-6th-workshop-junit.png?branch=master)](https://travis-ci.org/i-takehiro/tdc-6th-workshop-junit)
+[![Circle CI](https://circleci.com/gh/i-takehiro/tdc-6th-workshop-junit.svg?style=shield&circle-token=432ad930068b52225bb63f7a54f9c2aebe6928b1)](https://circleci.com/gh/i-takehiro/tdc-6th-workshop-junit)
